@@ -1,0 +1,100 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "https://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" aria-label="Graph view" width="152" height="323"><g transform="translate(12,19.180986404418945)"><g class="nodes"><g class="node-container" transform="translate(63.70000076293945,18.800000190734863)"><g class="node anchor"><circle class="shape" x="-15.980987548828125" y="-8.800000190734863" r="25.980987548828125"/><text class="label"><tspan xml:space="preserve" text-anchor="middle" alignment-baseline="central">Start</tspan></text></g></g><g class="node-container" transform="translate(63.70000076293945,269.20000171661377)"><g class="node anchor"><circle class="shape" x="-12.175000190734863" y="-8.800000190734863" r="22.175000190734863"/><text class="label"><tspan xml:space="preserve" text-anchor="middle" alignment-baseline="central">End</tspan></text></g></g><g class="node-container" transform="translate(63.70000076293945,81.40000057220459)"><g class="node state Task SucceededState" aria-label="State First Invoke" data-virtual-tab-id="4" tabindex="0" transform="translate(-8)"><rect class="shape step-status" rx="5" ry="5" x="-46.35000228881836" y="-18.800000190734863" width="108.70000457763672" height="37.60000038146973"/><text class="label" xml:space="preserve" text-anchor="middle" alignment-baseline="central">First Invoke</text><svg class="icon" width="16" height="16" x="41.35000228881836" y="-8"><circle stroke="black" stroke-width="1" fill="none" cx="8" cy="8" r="7"/><path stroke="black" stroke-width="1" fill="none" d="m5 8 2 2 3.521-3.521"/></svg></g></g><g class="node-container" transform="translate(63.70000076293945,144.00000095367432)"><g class="node state Task SucceededState" aria-label="State Second Invoke" data-virtual-tab-id="5" tabindex="-1" transform="translate(-8)"><rect class="shape step-status" rx="5" ry="5" x="-55.70000076293945" y="-18.800000190734863" width="127.4000015258789" height="37.60000038146973"/><text class="label" xml:space="preserve" text-anchor="middle" alignment-baseline="central">Second Invoke</text><svg class="icon" width="16" height="16" x="50.70000076293945" y="-8"><circle stroke="black" stroke-width="1" fill="none" cx="8" cy="8" r="7"/><path stroke="black" stroke-width="1" fill="none" d="m5 8 2 2 3.521-3.521"/></svg></g></g><g class="node-container" transform="translate(63.70000076293945,206.60000133514404)"><g class="node state Task SucceededState" aria-label="State Final Invoke" data-virtual-tab-id="6" tabindex="-1" transform="translate(-8)"><rect class="shape step-status" rx="5" ry="5" x="-47.83124923706055" y="-18.800000190734863" width="111.6624984741211" height="37.60000038146973"/><text class="label" xml:space="preserve" text-anchor="middle" alignment-baseline="central">Final Invoke</text><svg class="icon" width="16" height="16" x="42.83124923706055" y="-8"><circle stroke="black" stroke-width="1" fill="none" cx="8" cy="8" r="7"/><path stroke="black" stroke-width="1" fill="none" d="m5 8 2 2 3.521-3.521"/></svg></g></g></g><g class="edges"><g class="edge"><path class="path" marker-end="url(#arrowhead5)" d="M63.7,100.2L63.7,102.283C63.7,104.367,63.7,108.533,63.7,112.7C63.7,116.867,63.7,121.033,63.7,123.117L63.7,125.2" style="fill: none;"/><defs><marker id="arrowhead5" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z"/></marker></defs></g><g class="edge"><path class="path" marker-end="url(#arrowhead6)" d="M63.7,44.781L63.7,45.667C63.7,46.554,63.7,48.327,63.7,51.297C63.7,54.267,63.7,58.433,63.7,60.517L63.7,62.6" style="fill: none;"/><defs><marker id="arrowhead6" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z"/></marker></defs></g><g class="edge"><path class="path" marker-end="url(#arrowhead7)" d="M63.7,162.8L63.7,164.883C63.7,166.967,63.7,171.133,63.7,175.3C63.7,179.467,63.7,183.633,63.7,185.717L63.7,187.8" style="fill: none;"/><defs><marker id="arrowhead7" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z"/></marker></defs></g><g class="edge"><path class="path" marker-end="url(#arrowhead8)" d="M63.7,225.4L63.7,227.483C63.7,229.567,63.7,233.733,63.7,237.338C63.7,240.942,63.7,243.983,63.7,245.504L63.7,247.025" style="fill: none;"/><defs><marker id="arrowhead8" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z"/></marker></defs></g></g></g><style xmlns="http://www.w3.org/1999/xhtml">
+  .link &gt; rect {
+    fill: #0073BB;
+  }
+
+  .link .label {
+    fill: #FFFFFF;
+  }
+
+  .node &gt; .shape {
+    stroke: #555555;
+    stroke-width: 0.6px;
+    fill: #FFFFFF;
+  }
+
+  path {
+    stroke: #555;
+    background-color: #555;
+    stroke-width: 1px;
+  }
+
+  .node.state.NotYetStarted &gt; .shape,
+  .node.state.Container &gt; .shape {
+    stroke-dasharray: 5 2;
+  }
+
+  .node.state.FailedState &gt; .shape,
+  rect.legend.FailedState {
+    fill: #DE322F;
+  }
+
+  .node.state.CaughtErrorState &gt; .shape,
+  rect.legend.CaughtErrorState {
+    fill: #FFA500;
+  }
+
+  .node.state.SucceededState &gt; .shape,
+  rect.legend.SucceededState {
+    fill: #2BD62E;
+  }
+
+  .node.state.InProgressState &gt; .shape,
+  rect.legend.InProgressState {
+    fill: #53c9ed;
+  }
+
+  .node.state.CancelledState &gt; .shape,
+  rect.legend.CancelledState {
+    fill: #dddddd;
+  }
+
+  .node.anchor &gt; .shape {
+    fill: #FFDA75;
+  }
+
+  .node.state.hovered:not(.selected):not(.NotYetStarted) &gt; .shape,
+  .node.selected &gt; .shape {
+    stroke: #555555;
+    stroke-width: 2px;
+  }
+
+  .node.state.Container.Failed &gt; .shape {
+    fill: #EE9592;
+  }
+
+  .node.state.Container.CaughtError &gt; .shape {
+    fill: #FFD27F;
+  }
+
+  .node.state.Container.Succeeded &gt; .shape {
+    fill: #91EA9A;
+  }
+
+  .node.state.Container.InProgress &gt; .shape {
+    fill :#A9E4F7;
+  }
+
+  .node.state.Container.Cancelled &gt; .shape {
+    fill: #EEEEEE;
+  }
+
+  marker {
+    fill: #555555;
+  }
+
+  .node.anchor,
+  .node.state.NotYetStarted {
+    cursor: default;
+  }
+
+  .node.state {
+    cursor: default;
+  }
+
+  tspan .label {
+    font-weight: normal;
+    font-size: 12px;
+    text-shadow: none;
+  }
+</style></svg>
